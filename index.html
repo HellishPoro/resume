@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="Leonid, sv, resume" />
+    <meta name="description" content="Это сайт - резюме Леонида Бородича" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Leonid Resume</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="info">
+        <img src="photo.jpg" alt="Фото Леонида" class="avatar" />
+        <div class="info-text">
+          <h1>Леонид Бородич</h1>
+          <p>
+            Я начинающий <strong><em>Frontend</em></strong> разрабочик.
+          </p>
+          <p>Хотелось бы в скором времени освоить данную профессию.</p>
+
+          <h4>Мои социальные сети:</h4>
+
+          <a href="https://www.youtube.com/@PoroDoro/featured" target="_blank">
+            YouTube
+          </a>
+          |
+          <a href="https://t.me/HellishPoro" target="_blank">Telegram</a>
+        </div>
+      </div>
+
+      <div class="hobby">
+        <h2>Мои хобби</h2>
+        <ol class="list">
+          <li>Сноуборд</li>
+          <li>Фото</li>
+          <li>Футбол</li>
+        </ol>
+      </div>
+
+      <div class="work">
+        <h2>Опыт работы</h2>
+        <table class="table">
+          <!-- <thead>
+            <tr>
+              <th>Название</th>
+              <th>Должность</th>
+              <th>Год</th>
+            </tr>
+          </thead> -->
+          <tbody>
+            <tr>
+              <td>Цех 85</td>
+              <td>Бариста</td>
+              <td>2018-2019</td>
+            </tr>
+            <tr>
+              <td>Концепция строительста</td>
+              <td>Техник</td>
+              <td>2022-2023</td>
+            </tr>
+            <tr>
+              <td>Фм Сервис</td>
+              <td>Техник</td>
+              <td>2023 - по н.вр.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="course">
+        <h2>Мои пройденные курсы</h2>
+        <ul class="list-prof">
+          <li>Профессия Junior Frontend разработчик</li>
+        </ul>
+      </div>
+
+      <form action="/" class="form">
+        <h2>Свзаться со мной</h2>
+        <div class="all-form">
+          <div class="group">
+            <label for="text">Ваше имя:</label>
+            <input type="text" id="text" placeholder="Максим" />
+          </div>
+          <div class="group">
+            <label for="email">Ваш email:</label>
+            <input type="email" id="email" placeholder="gggames@mail.ru" />
+          </div>
+        </div>
+        <div class="group">
+          <label for="message">Ваше сообщение:</label>
+          <textarea
+            id="message"
+            cols="25"
+            rows="5"
+            placeholder="Введите ваше сообщение"
+          ></textarea>
+        </div>
+        <div class="btn-container">
+          <button type="submit" class="btn">Отправить</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
